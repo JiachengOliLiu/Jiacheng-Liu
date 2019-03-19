@@ -1,0 +1,442 @@
+@font-face {
+    font-family: "century_gothic_B";
+    src: url("index_assets/fonts/century_gothic_B.TTF");
+}
+
+@font-face {
+    font-family: "century_gothic";
+    src: url("index_assets/fonts/century_gothic.ttf");
+}
+
+@font-face {
+    font-family: "century_gothic_BI";
+    src: url("index_assets/fonts/century_gothic_BI.TTF");
+}
+
+@font-face {
+    font-family: "century_gothic_I";
+    src: url("index_assets/fonts/century_gothic_I.ttf");
+}
+
+@font-face {
+    font-family: "hiragino_B";
+    src: url("index_assets/fonts/hiragino_W7.ttc");
+}
+
+@font-face {
+    font-family: "hiragino";
+    src: url("index_assets/fonts/hiragino_W2.ttc");
+}
+
+body {
+    margin:0;
+    color:#565656;
+}
+
+a{
+    text-decoration: none;
+    color:#8a8a8a;
+}
+
+section.page_all_contents{
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+div.subpage_all_contents_container{
+    max-width: 950pt;
+    margin:auto;
+    margin-top:30pt;
+}
+
+/*styles for nav*/
+
+nav#global_nav{
+    text-align:center;
+}
+
+div#nav_content{
+    text-align:center;
+    margin:0 7vw;
+}
+
+div.nav_items{
+    display:inline-block;
+    position:relative;
+}
+
+div.nav_item_name{
+    width:350pt;
+    position:relative;
+    margin-right:15pt;
+    margin-top:85pt;
+}
+
+img.nav_my_name{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:-16pt;
+}
+
+div.three_btns{
+    display:inline-block;
+    text-align:center;
+    margin-top:25pt;
+    margin-bottom:25pt;
+    margin-left:20pt;
+}
+
+
+div.nav_item_btn{
+    margin:0 22pt;
+}
+
+img.btn_img{
+    width:68pt;
+    position:absolute;
+    right:0;
+}
+
+h4.btn_txt{
+    position:relative;
+    margin-top:22pt;
+    font-family: century_gothic;
+    font-size: 12pt;
+    color:white;
+}
+
+h4.btn_txt_home{
+    margin-right:13pt;
+}
+
+h4.btn_txt_works{
+    margin-right:10pt;
+}
+
+h4.btn_txt_about{
+    margin-right:12pt;
+}
+
+ /*styles for nav*/
+
+
+div.content_container{
+    margin:auto;
+    text-align:center;
+}
+
+h2.general_titles{
+    text-align: center;
+    font-family: century_gothic_B;
+    font-size:20pt;
+}
+
+h4.paragraph_title{
+    font-family: century_gothic_B;
+    font-size:14pt;
+    text-align: center;
+    margin-top:0;
+    margin-bottom:15pt;
+}
+
+h5.paragraph_subtitle{
+    font-family: century_gothic_BI;
+    font-size:11pt;
+    color:#21a4d0;
+    text-align: center;
+    margin-top:0;
+}
+
+p.general_paragraph{
+    font-family: century_gothic, hiragino, "Hiragino Kaku Gothic Pro", sans-serif;
+    font-size:11pt;
+    margin-top:0;
+    margin-bottom:11pt;
+    line-height: 15pt;
+}
+
+p.notes{
+    font-family: century_gothic_I;
+    font-size:10pt;
+    margin:0;
+    color:#8a8a8a;
+    text-align: left;
+}
+
+span.book_name{
+    font-family: century_gothic_I;
+}
+
+div.columned_p_container{
+    column-width: 280pt;
+    column-gap: 30pt;
+}
+
+
+div.general_p_container{
+    text-align:left;
+}
+
+div.round_img_container{
+    display:inline-block;
+    margin: 15pt;
+    text-align: center;
+}
+
+div.round_div{
+    overflow:hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.general_img{
+    width:100%;
+}
+
+footer{
+    margin-top:80pt;
+    margin-bottom:40pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    text-align: center;
+    position:relative;
+    background-color:white;
+}
+
+div.footer_wrap{
+    display:inline-block;
+    margin-left:5pt;
+    margin-right:5pt;
+}
+
+span.footer_name, span.footer_items, span.footer_text{
+    font-size:11pt;
+}
+
+span.footer_name{
+    font-family: century_gothic_B;
+    color:#f6833f;
+}
+
+span.footer_items, span.footer_text{
+    font-family: century_gothic;
+}
+
+span.footer_text{
+    color:#21a4d0;
+}
+
+
+/*styles for single works pages*/
+
+section.project_intro{
+    margin-top: 30pt;
+}
+
+div.project_intro_text_container{
+    max-width:500pt;
+    min-width:150pt;
+    display:inline-block;
+}
+
+div.project_text_container{
+    padding:30pt 20pt;
+}
+
+p.project_intro_text{
+    color:white;
+}
+
+p.single_work_link_font{
+    font-family:century_gothic_BI !important;
+}
+
+h2.single_work_title{
+    margin-top:0;
+    margin-bottom:10pt;
+    color:white;
+}
+
+h3.subtitle_1{
+    font-family: century_gothic_BI;
+    font-size:14pt;
+    margin-top:0;
+    margin-bottom:5pt;
+    text-align: left;
+}
+
+h3.subtitle_2{
+    font-family: century_gothic_BI;
+    font-size:14pt;
+    color:#8a8a8a;
+    margin-top:0;
+    margin-bottom:5pt;
+}
+
+.left_subtitle{
+    text-align: left;
+}
+
+h3.centered_subtitle{
+    text-align:center;
+}
+
+h4.subtitle_3{
+    font-family: century_gothic_I;
+    font-size:11pt;
+    color:#8a8a8a;
+    margin-top:0;
+    margin-bottom:5pt;
+}
+
+section.single_work_custom_content{
+    margin-top:40pt;
+}
+
+div.sub_paragraphs_container{
+    display:inline-block;
+}
+
+div.center_pic_container{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.big_pic_container, .small_pics_wrap{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.small_pic_container{
+    display:inline-block;
+}
+
+img.height_fit_img{
+    height:100%;
+}
+
+/*styles for single works pages*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 620px) {
+
+    /*styles for mobile nav*/
+
+    div.nav_item_name{
+        width:200pt;
+        margin-right:10pt;
+        margin-top:60pt;
+    }
+    
+    img.nav_my_name{
+        top:-16pt;
+    }
+    
+    div.three_btns{
+        margin:15pt 0;
+    }
+    
+    
+    div.nav_item_btn{
+        margin:0 15pt;
+    }
+    
+    img.btn_img{
+        width:48pt;
+    }
+    
+    h4.btn_txt{
+        margin-top:15pt;
+        font-size:9pt;
+    }
+    
+    h4.btn_txt_home{
+        margin-right:8pt;
+    }
+    
+    h4.btn_txt_works{
+        margin-right:6pt;
+    }
+    
+    h4.btn_txt_about{
+        margin-right:7pt;
+    }
+
+
+    /*styles for mobile nav*/
+
+    div.round_img_container{
+        flex:1;
+        margin: 10pt;
+        text-align: center;
+    }
+
+    span.footer_name, span.footer_items, span.footer_text{
+        font-size:10pt;
+    }
+    
+
+    /*styles for single work pages*/
+    section.single_work_page_all_contents{
+        margin:0;
+    }
+
+    div.sub_paragraphs_container{
+        margin-left:20pt;
+        margin-right:20pt;
+    }
+
+    p.single_work_paragraph{
+        font-size:10pt;
+        margin-top:0;
+        margin-bottom:10pt;
+    }
+
+    p.notes{
+        font-size:9pt;
+        text-align:center;
+    }
+
+    h3.subtitle_1{
+        font-size:12pt;
+        margin-top:0;
+        margin-bottom:5pt;
+        text-align: center;
+    }
+
+    h3.subtitle_2{
+        font-size:12pt;
+    }
+
+    h4.subtitle_3{
+        font-size:10pt;
+    }
+
+    h3.subtitle_2, h4.subtitle_3{
+        text-align:center;
+    }
+
+
+    div.small_pic_container{
+        margin:0;
+    }
+
+    p.key_words{
+        text-align:center;
+    }
+
+
+    }
