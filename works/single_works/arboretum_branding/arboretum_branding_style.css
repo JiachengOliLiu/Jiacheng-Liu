@@ -1,0 +1,96 @@
+section.project_intro{
+    background-color: #CDA152;
+}
+
+div.big_logo_container{
+    width:240pt;
+    margin-top:20pt;
+    margin-bottom:30pt;
+}
+
+div.icons_container{
+    margin-top:10pt;
+    padding:25pt;
+}
+
+div.other_logos_container{
+    margin-top:20pt;
+}
+
+div.sub_paragraphs_container{
+    max-width:500pt;
+    margin-top:50pt;
+    margin-bottom:20pt;
+}
+
+div.logo_b_w_container{
+    max-width:400pt;
+    padding:25pt;
+}
+
+div.patterns_container{
+    max-width:500pt;
+}
+
+h3.subtitle_2{
+    margin-top:50pt;
+}
+
+div.bags_container{
+    margin-bottom:5pt;
+}
+
+div.poster_effects_container{
+    margin-top:25pt;
+}
+
+
+
+
+
+
+@media all and (max-width: 620px){
+    div.big_logo_container{
+        width:180pt;
+        padding-top:10pt;
+    padding-bottom:20pt;
+    }
+
+    div.icons_container{
+        margin-top:5pt;
+        padding:10pt;
+    }
+
+    div.textures_container{
+        margin:0 10pt;
+    }
+
+    div.other_logos_container, .color_palette_container{
+        padding-left:15pt;
+        padding-right:15pt;
+    }
+
+    div.sub_paragraphs_container{
+        margin-top:30pt;
+        margin-bottom:0;
+    }
+
+    h3.subtitle_2{
+        margin-top:30pt;
+    }
+    
+
+    div.logo_b_w_container{
+        padding:20pt;
+    }
+
+    div.poster_effects_container{
+        margin-top:10pt;
+    }
+    
+}
+
+/*styles for Firefox*/
+@-moz-document url-prefix() {
+    
+  }

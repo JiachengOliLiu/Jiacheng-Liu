@@ -1,0 +1,117 @@
+section.project_intro{
+    background-color: #CDA152;
+}
+
+span.link_in_intro{
+    font-family:century_gothic_B;
+    color:#851C36;
+}
+
+h3.arboretum_page_link{
+    color:#CDA152;
+}
+
+p.notes{
+    padding-bottom:20pt;
+}
+
+div.screenshot_container{
+    width:21vw;
+}
+
+div.screenshot_2_container{
+    display:none;
+}
+
+div.single_column_container{
+    display:inline-block;
+    max-width:500pt;
+    margin-left:2vw;
+    vertical-align:top;
+}
+
+div.sub_paragraphs_container{
+    max-width:100%;
+}
+
+div.color_palette_container{
+    margin-top:20pt;
+}
+
+div.column_elements_container{
+    margin-top:25pt;
+}
+
+div.exlink_container{
+    margin-top:10pt;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1220px){
+
+    div.single_column_container{
+        max-width:360pt;
+    }
+}
+
+
+
+@media all and (max-width: 880px){
+
+    div.single_column_container{
+        max-width:500pt;
+    }
+
+    div.screenshot_container{
+        display:none;
+    }
+
+    div.screenshot_2_container{
+        display:block;
+        margin-bottom:5pt;
+    }
+
+    div.single_column_container{
+        margin:0;
+    }
+
+    div.color_palette_container{
+        margin-top:15pt;
+    }
+    
+    div.column_elements_container{
+        margin-top:20pt;
+    }
+    
+    div.exlink_container{
+        margin-top:5pt;
+    }
+    
+    
+}
+
+@media all and (min-width: 2570px){
+    div.screenshot_container{
+        display:none;
+    }
+
+    div.screenshot_2_container{
+        display:block;
+    }
+
+    div.single_column_container{
+        margin:0;
+    }
+}
+
+/*styles for Firefox*/
+@-moz-document url-prefix() {
+    
+  }

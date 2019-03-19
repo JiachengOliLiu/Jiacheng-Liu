@@ -1,0 +1,883 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #123135;
+}
+
+h1,h2,h3,p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-family: 'Cabin Sketch', sans-serif;
+	font-weight: 700;
+	font-size: 6vw;
+	color:#E0695A;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Cabin Sketch', sans-serif;
+	font-weight: 400;
+	font-size: 3.2vw;
+	color:#DDE2D9;
+	margin-top: 0;
+}
+
+h3{
+	font-family: 'Cabin Sketch', sans-serif;
+	font-weight: 700;
+	font-size: 2vw;
+	color:#E0695A;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p{
+	color:#DDE2D9;
+}
+
+p.notes{
+	position: absolute;
+	width:20vw;
+	font-weight: 700;
+	font-style:italic;
+	font-size: 1.2vw;
+	transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+}
+
+p.intro_texts{
+	font-family: 'Cabin Sketch', sans-serif;
+	position:relative;
+	font-weight: 400;
+	font-size: 2vw;
+}
+
+p.main_texts{
+	margin-top: 0.5vw;
+	font-weight: 400;
+	font-size: 1.6vw;
+}
+
+p.link_texts{
+	font-weight: 800;
+	font-size: 1.4vw;
+	font-style:italic;
+	color:#CEA252;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.link_Canberra{
+	font-size: 1.2vw;
+}
+
+span{
+	font-weight: 600;
+	font-size: 1.6vw;
+	color:#CEA252;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*big containers(divs)position relative; small elements position all absolute*/
+#intro{
+	position:relative;
+	height:120vh;
+}
+
+/*note:adjust intro height*/
+
+#intro_fullcontent{
+	position:relative;
+	top:20vh;
+}
+
+#intro_content{
+	position:relative;
+	top:-10vw;
+}
+
+
+#intro_pics{
+	position:relative;
+	top:1.5vh;
+	left:9vw;
+	width:16vw;
+	height:auto;
+}
+
+img{
+	position:absolute;
+}
+
+.pic_clickable{
+	cursor:pointer;
+}
+
+.pic_0_a_0{
+	top: 11.8vw;
+}
+
+.pic_0_a_1{
+	top: 11vw;
+	left:10vw;
+}
+
+div.intro_texts{
+	position:absolute;
+	top:9vw;
+	left:42vw;
+	right:9vw;
+}
+
+#main_content{
+	position:relative;
+}
+
+
+.pic_0_b_5{
+	width:25vw;
+	top:167vw;
+	left:40vw;
+}
+
+.pic_0_b_6{
+	width:30vw;
+	top:157vw;
+	left:65vw;
+}
+
+.pic_0_b_7{
+	width:90vw;
+	top:222vw;
+	left:-35vw;
+}
+
+.pic_0_b_8{
+	width:58vw;
+	top:310vw;
+	left:2vw;
+}
+
+.pic_0_b_9{
+	width:55vw;
+	top:390vw;
+	left:-7vw;
+}
+
+.pic_0_b_10{
+	width:60vw;
+	top:440vw;
+	left:13.5vw;
+}
+
+.pic_0_b_11{
+	width:52vw;
+	top:544vw;
+	left:4vw;
+}
+
+
+.pic_0_b_0{
+	width:10.2vw;
+	left:39.8vw;
+}
+
+.pic_0_b_1{
+	width:6.2vw;
+	top:206vw;
+	left:33vw;
+}
+
+.pic_0_b_2{
+	width:41vw;
+	top:219.2vw;
+	left:17vw;
+}
+
+.pic_0_b_3{
+	width:56vw;
+	top:580.2vw;
+	left:21.2vw;
+}
+
+.pic_0_b_points{
+	width:3.6vw;
+}
+
+.pic_0_b_points_1{
+	left:47.9vw;
+	top:-1.9vw;
+}
+
+.pic_0_b_points_2{
+	left:47.9vw;
+	top:55vw;
+}
+
+.pic_0_b_points_3{
+	left:47.9vw;
+	top:110vw;
+}
+
+.pic_0_b_points_4{
+	left:47.9vw;
+	top:165vw;
+}
+
+.pic_0_b_points_5{
+	left:26.1vw;
+	top:240vw;
+}
+
+.pic_0_b_points_6{
+	left:35.4vw;
+	top:277vw;
+}
+
+.pic_0_b_points_7{
+	left:52.7vw;
+	top:332vw;
+}
+
+.pic_0_b_points_8{
+	left:28.5vw;
+	top:387vw;
+}
+
+.pic_0_b_points_9{
+	left:48.6vw;
+	top:467vw;
+}
+
+.Canberra_point_1{
+	left:20.6vw;
+	top:578.7vw;
+}
+
+.Canberra_point_2{
+	left:39vw;
+	top:578.7vw;
+}
+
+.Canberra_point_3{
+	left:56.6vw;
+	top:578.7vw;
+}
+
+.Canberra_point_4{
+	left:74.2vw;
+	top:578.7vw;
+}
+
+
+div.events{
+	position:relative;
+	height:55vw;
+}
+
+.pic_1_0{
+	width:29vw;
+	left:12vw;
+	top:-1vw;
+}
+
+.pic_1_1{
+	width:20vw;
+	left:17vw;
+	top:1.4vw;
+}
+
+.event_text{
+	position:absolute;
+}
+
+.event_text.text_left{
+	left:5vw;
+	right:52.5vw;
+	text-align: right;
+}
+
+
+.event_text.text_right{
+	left:55vw;
+	right:5vw;
+}
+
+#event1_text{
+	top:-1.6vw;
+}
+
+
+.pic_2{
+	height:12vw;
+	top:5vw;
+}
+
+.pic_2_0{
+	left:55vw;
+}
+
+.pic_2_1{
+	left:70vw;
+}
+
+.pic_2_2{
+	left:85vw;
+}
+
+#event2{
+	height:50vw;
+}
+
+#event3{
+	height:60vw;
+}
+
+.pic_3_0{
+	width:20vw;
+	left:19vw;
+	top:1vw;
+}
+
+.pic_3_1{
+	width:20vw;
+	left:19vw;
+	top:1vw;
+}
+
+.pic_3_1_status1{
+	opacity:0;
+}
+
+.pic_3_1_status2{
+	opacity:1;
+}
+
+.pic_3_2{
+	width:6.5vw;
+	left:16.6vw;
+	top:2.2vw;
+}
+
+.pic_3_2_status1{
+	opacity:0;
+}
+
+.pic_3_2_status2{
+	opacity:1;
+}
+
+.pic_3_3{
+	width:6.5vw;
+}
+
+.pic_3_3_status1{
+	left:-8vw;
+	top:-4vw;
+}
+
+.pic_3_3_status2{
+	left:15vw;
+	top:3.5vw;
+}
+
+.pic_4_2{
+	width:12vw;
+	top:3vw;
+	left:53vw;
+}
+
+.pic_4_2_status1{
+	opacity:1;
+}
+
+.pic_4_2_status2{
+	opacity:0;
+}
+
+div#event4{
+	height:75vw;
+}
+
+.pic_5_1{
+	width:20vw;
+	left:4vw;
+	top:0.5vw;
+}
+
+.pic_5_2{
+	width:4vw;
+	left:6.1vw;
+	top:6vw;
+}
+
+.pic_5_3{
+	width:4vw;
+	left:5.8vw;
+	top:10.2vw;
+}
+
+#event5_text{
+	left:33vw;
+}
+
+div#event5{
+	height:37vw;
+}
+
+#event6_text{
+	right:65vw;
+}
+
+.pic_6_0{
+	width:42vw;
+	left:50vw;
+	top:2vw;
+}
+
+.pic_6_1{
+	width:1.5vw;
+	left:53.6vw;
+	top:7vw;
+}
+
+.pic_6_2{
+	width:1.5vw;
+	left:84.1vw;
+	top:8.3vw;
+}
+
+.pic_7_1{
+	width:23vw;
+	left:7vw;
+	top:-0.8vw;
+}
+
+#event7_text{
+	left:59vw;
+}
+
+#event8_text{
+	position:relative;
+	left:35vw;
+	width:57vw;
+}
+
+.pic_8_1{
+	position:relative;
+	width:50vw;
+	top:1vw;
+	left:35vw;
+}
+
+div#event8{
+	height:80vw;
+}
+
+#event9_text{
+	left:62vw;
+}
+
+.pic_9_1{
+	width:38vw;
+	left:10vw;
+	top:-1vw;
+}
+
+.pic_9_2{
+	width:1.8vw;
+	left:23vw;
+	top:7.5vw;
+}
+
+.pic_9_3{
+	width:12vw;
+	left:7.5vw;
+	top:15.3vw;
+}
+
+.pic_9_status1{
+	opacity:1;
+}
+
+.pic_9_status2{
+	opacity:0;
+}
+
+#Canberra{
+	position:absolute;
+	top:584vw;
+	width:100%;
+}
+
+h2#Canberra_title{
+	font-size: 3.6vw;
+	text-align: center;
+	margin-bottom: 5vw;
+}
+
+#Canberra_events_all{
+	position:relative;
+	height:50vw;
+	width:95vw;
+	transition:all 1s;
+}
+
+/*controll click events*/
+
+.Canberra_events{
+	position:absolute;
+	width:86vw;
+	left:5vw;
+}
+
+.Canberra_event_visible{
+	opacity:1;
+	transition:all 1s;
+}
+
+.Canberra_event_hidden{
+	opacity:0;
+	transition:all 1s;
+}
+
+.Canberra_text{
+	position:absolute;
+	left:40vw;
+}
+
+.pic_10_1{
+	width:35vw;
+	top:2vw;
+}
+
+.pic_11_0{
+	width:15vw;
+	top:12vw;
+	left:1vw;
+}
+
+.pic_11_1{
+	width:14vw;
+}
+
+.pic_11_1_status1{
+	top:6.6vw;
+	left:7.3vw;
+}
+
+.pic_11_1_status2{
+	top:8vw;
+	left:22vw;
+	-webkit-transform: rotate(70deg);
+	transform: rotate(70deg);
+}
+
+.pic_11_2{
+	width:8vw;
+	top:8vw;
+	left:13.5vw;
+}
+
+.pic_11_2_status1{
+	opacity:0;
+}
+
+.pic_12_0{
+	width:16vw;
+	top:8vw;
+}
+
+.pic_12_1{
+	width:16vw;
+	left:18vw;
+}
+
+.pic_12_2{
+	width:3.5vw;
+	left:23vw;
+	top:6.5vw;
+}
+
+.pic_13_0{
+	width:11.5vw;
+	top:23.2vw;
+	left:15vw;
+}
+
+.pic_13_1{
+	width:17.5vw;
+	left:13vw;
+	top:2vw;
+}
+
+.pic_13_2{
+	width:19vw;
+	left:8.5vw;
+	top:4.2vw;
+}
+
+.pic_13_3{
+	width:22vw;
+	left:11.5vw;
+	top:8.9vw;
+}
+
+.links{
+	text-align: left;
+	position:relative;
+	transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+}
+
+
+.bulbs{
+	width:5vw;
+}
+
+.link_texts_container{
+	position:absolute;
+	left:6.2vw;
+	top:1.3vw;
+}
+
+.link_texts_Canberra{
+	position:absolute;
+	left:6.2vw;
+	top:0.8vw;
+}
+
+
+.link1{
+	top:22vw;
+	left:55vw;
+	width:22vw;
+}
+
+.link2{
+	left:-1vw;
+	width:22vw;
+}
+
+.link3{
+	top:1vw;
+	left:-1vw;
+	width:30vw;
+}
+
+.link4{
+	width:27vw;
+}
+
+
+#Ginkgo_texture{
+	position:absolute;
+	left:37vw;
+	top:15vh;
+}
+
+#back_color{
+	position:absolute;
+	background-color:#123135;
+	width:56vw;
+	height:49vw;
+}
+
+#Ginkgo_illustration{
+	mix-blend-mode: lighten;
+	width:56vw;
+	opacity:0.15;
+}
+
+#interaction_hint{
+	position:absolute;
+	left:62vw;
+	top:7.5vw;
+}
+
+#hint_pointer{
+	width:3.2vw;
+}
+
+#hint_text{
+	position:relative;
+	left:4vw;
+	top:-1.8vw;
+}
+
+#background_infos{
+	position: absolute;
+}
+
+.back_info{
+	position:absolute;
+}
+
+.back_info1{
+	top:23vw;
+	left:30.4vw;
+}
+
+#fossil_img{
+	width:33vw;
+}
+
+.note1{
+	left:8.6vw;
+	top:18.5vw;
+}
+
+.back_info2{
+	top:133vw;
+}
+
+#dinosaur{
+	width:38vw;
+	left:32vw;
+}
+
+#img2_curve{
+	width:10vw;
+	top:6.5vw;
+	left:27vw;
+}
+
+.note2{
+	top:2vw;
+	left:22vw;
+}
+
+.back_info3{
+	top:209vw;
+	left:43vw;
+}
+
+.back_info4{
+	top:333.5vw;
+}
+
+#dessert{
+	width:35vw;
+	left:27.4vw;
+}
+
+.note4{
+	left:34.5vw;
+	top:19.5vw;
+}
+
+.back_info5{
+	top:380.2vw;
+}
+
+#Kaempfer{
+	width:34vw;
+	left:1.9vw;
+}
+
+.note5{
+	top:41.5vw;
+	left:3vw;
+}
+
+.back_info6{
+	top:530vw;
+	left:31vw;
+}
+
+
+#background_textures_2and3{
+	position:absolute;
+	left:0vw;
+	right:0vw;
+}
+
+.textures{
+	position:absolute;
+}
+
+.texture_pic{
+	position:relative;
+}
+
+.texture1{
+	left:-22vw;
+}
+
+.texture_1{
+	width:62vw;
+}
+
+
+.texture2{
+	left:-28.5vw;
+	top:197vw;
+}
+
+
+.texture_2{
+	width:55vw;
+}
+
+.texture3{
+	width:38vw;
+	right:0vw;
+	top:518vw;
+	overflow:hidden;
+}
+
+.texture_3{
+	width:72vw;
+}
+
+
+@media all and (max-width: 620px) {
+
+h3{
+	font-size: 12px;
+}
+
+p.intro_texts{
+	font-size: 10px;
+}
+
+p.main_texts{
+	font-size: 10px;
+}
+
+#Canberra_events_all{
+	height:80vh;
+}
+
+.link4{
+	top:37vw;
+	left:10vw;
+}
+
+.texture1{
+	top:-2vw;
+}
+
+.texture_3{
+	opacity:0;
+}
+}
+
+@media all and (min-width: 620px) {
+
+	.link4{
+		top:37vw;
+		left:65vw;
+	}
+
+.texture1{
+	top:-14vw;
+}
+		
+}

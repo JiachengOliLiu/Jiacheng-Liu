@@ -1,0 +1,339 @@
+.ease_in_out{
+  animation-timing-function: cubic-bezier(.37,.01,.6,1);
+  -webkit-animation-timing-function: cubic-bezier(.37,.01,.6,1);
+}
+
+.impact{
+  animation-timing-function: cubic-bezier(.02,.02,.71,.6);
+  -webkit-animation-timing-function: cubic-bezier(.02,.02,.71,.6);
+}
+
+.leafwave {
+  -webkit-animation-name: leaf_wave;
+  animation-name: leaf_wave;
+}
+
+.intro_leafwave0{
+  -webkit-animation-name: leafwave0;
+  animation-name: leafwave0;
+}
+
+.intro_leafwave1{
+  -webkit-animation-name: leafwave1;
+  animation-name: leafwave1;
+}
+
+.wave_center{
+  -webkit-animation-name: center_wave;
+  animation-name: center_wave;
+}
+
+.earth_impacted_appear{
+  -webkit-animation-name: earth_impacted_fadeIn;
+  animation-name: earth_impacted_fadeIn;
+}
+
+.asteroid_move{
+  -webkit-animation-name: asteroid_impact;
+  animation-name: asteroid_impact;
+}
+
+@-webkit-keyframes earth_impacted_fadeIn{
+  0%{opacity: 0;}
+  30%{opacity: 0;}
+  100%{opacity: 1;}}
+  @keyframes earth_impacted_fadeIn{
+  0%{opacity: 0;}
+  30%{opacity: 0;}
+  100%{opacity: 1;}}
+
+@-webkit-keyframes asteroid_impact {
+  0%{left:-8vw; top:-4vw;}
+  100% {left:15vw; top:3.5vw;}
+}
+
+@keyframes asteroid_impact {
+  0%{left:-8vw; top:-4vw;}
+  100% {left:15vw; top:3.5vw;}
+}
+
+@-webkit-keyframes leaf_wave{
+0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}
+25%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}
+50%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}
+75%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}
+100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}}
+@keyframes leaf_wave{
+0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+25%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}
+50%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}
+75%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}
+100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: bottom center;-webkit-transform-origin: bottom center;}}
+
+@-webkit-keyframes leafwave0{
+  0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  25%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  50%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  75%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}}
+  @keyframes leafwave0{
+  0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  25%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  50%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  75%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}
+  100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 85% 100%;-webkit-transform-origin: 85% 100%;}}
+
+  @-webkit-keyframes leafwave1{
+    0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    25%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}
+    50%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}
+    75%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}
+    100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}}
+    @keyframes leafwave1{
+    0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}
+    25%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}
+    50%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}
+    75%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}
+    100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 15% 100%;-webkit-transform-origin: 15% 100%;}}
+
+    @-webkit-keyframes center_wave{
+      0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+      25%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);}
+      50%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);}
+      75%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);}
+      100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}}
+      @keyframes center_wave{
+      0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+      25%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);}
+      50%{-webkit-transform: rotate(22.5deg);transform: rotate(22.5deg);}
+      75%{-webkit-transform: rotate(-22.5deg);transform: rotate(-22.5deg);}
+      100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}}
+
+.leaf_fade_out1 {
+  -webkit-animation-name: leaf_fade, leaf_move_away;
+  animation-name: leaf_fade, leaf_move_away;
+}
+
+.leaf_fade_out2 {
+  -webkit-animation-name: leaf_rotate, leaf_smaller;
+  animation-name: leaf_rotate, leaf_smaller;
+}
+
+.small_leaf_fadeout_down1{
+  -webkit-animation-name: leaf_fade_slowly, leaf_move_away_small;
+  animation-name: leaf_fade_slowly, leaf_move_away_small;
+}
+
+.small_leaf_fadeout_down2{
+  -webkit-animation-name: leaf_rotate, leaf_bigger_smaller;
+  animation-name: leaf_rotate, leaf_bigger_smaller;
+}
+
+.small_leaf_fadeout_up1{
+  -webkit-animation-name: leaf_fade_slowly, leaf_move_away_small_up;
+  animation-name: leaf_fade_slowly, leaf_move_away_small_up;
+}
+
+.small_leaf_fadeout_up2{
+  -webkit-animation-name: leaf_rotate_reverse, leaf_bigger_smaller;
+  animation-name: leaf_rotate_reverse, leaf_bigger_smaller;
+}
+
+.street_leaf_fadeout1{
+  -webkit-animation-name: leaf_fade_slowly, leaf_move_away_small_up;
+  animation-name: leaf_fade_slowly, leaf_move_away_small_up;
+}
+
+.street_leaf_fadeout2{
+  -webkit-animation-name: leaf_rotate, street_leaf_bigger_smaller;
+  animation-name: leaf_rotate, street_leaf_bigger_smaller;
+}
+
+.fade_into_right{
+  -webkit-animation-name: disappear_right;
+  animation-name: disappear_right;
+}
+
+@-webkit-keyframes leaf_smaller{
+  0%{width:12vw;}
+  100%{width:6vw;}}
+  @keyframes leaf_smaller{
+    0%{width:12vw;}
+    100%{width:6vw;}}
+  @-webkit-keyframes leaf_fade{
+  0%{opacity: 1;}
+  75%{opacity: 0.5;}
+  100%{opacity: 0;}}
+  @keyframes leaf_fade{
+  0%{opacity: 1;}
+  75%{opacity: 0.5;}
+  100%{opacity: 0;}}
+  @-webkit-keyframes leaf_move_away{
+  0%{-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+  50%{-webkit-transform: translate(24vw, 6vw);transform: translate(24vw, 6vw);}
+  100%{-webkit-transform: translate(42vw, 4vw);transform: translate(42vw, 4vw);}}
+  @keyframes leaf_move_away{
+  0%{-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+  50%{-webkit-transform: translate(24vw, 6vw);transform: translate(24vw, 6vw);}
+  100%{-webkit-transform: translate(42vw, 4vw);transform: translate(42vw, 4vw);}}
+  @-webkit-keyframes leaf_rotate{
+  0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(-500deg);transform: rotate(-500deg);}}
+  @keyframes leaf_rotate{
+  0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(-500deg);transform: rotate(-500deg);}}
+
+  @-webkit-keyframes leaf_move_away_small{
+    0%{-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+    50%{-webkit-transform: translate(12vw, 6vw);transform: translate(12vw, 6vw);}
+    100%{-webkit-transform: translate(21vw, 4vw);transform: translate(21vw, 4vw);}}
+    @keyframes leaf_move_away_small{
+      0%{-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+      50%{-webkit-transform: translate(12vw, 6vw);transform: translate(12vw, 6vw);}
+      100%{-webkit-transform: translate(12vw, 4vw);transform: translate(21vw, 4vw);}}
+
+      @-webkit-keyframes leaf_move_away_small_up{
+        0%{-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+        50%{-webkit-transform: translate(12vw, 3vw);transform: translate(12vw, 3vw);}
+        100%{-webkit-transform: translate(21vw, 2vw);transform: translate(21vw, 2vw);}}
+        @keyframes leaf_move_away_small_up{
+          0%{-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+          50%{-webkit-transform: translate(12vw, 3vw);transform: translate(12vw, 3vw);}
+          100%{-webkit-transform: translate(21vw, 2vw);transform: translate(21vw, 2vw);}}
+
+
+
+      @-webkit-keyframes leaf_fade_slowly{
+        0%{opacity: 1;}
+        75%{opacity: 0.8;}
+        100%{opacity: 0;}}
+        @keyframes leaf_fade_slowly{
+        0%{opacity: 1;}
+        75%{opacity: 0.8;}
+        100%{opacity: 0;}}
+
+        @-webkit-keyframes leaf_rotate_reverse{
+          0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+          100%{-webkit-transform: rotate(500deg);transform: rotate(500deg);}}
+          @keyframes leaf_rotate_reverse{
+          0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+          100%{-webkit-transform: rotate(500deg);transform: rotate(500deg);}}
+
+      @-webkit-keyframes leaf_bigger_smaller{
+        0%{width:1.5vw;}
+        50%{width:3vw;}
+        100%{width:2.5vw;}}
+        @keyframes leaf_bigger_smaller{
+          0%{width:1.5vw;}
+          50%{width:3vw;}
+          100%{width:2.5vw;}}
+
+
+          @-webkit-keyframes street_leaf_bigger_smaller{
+            0%{width:1.8vw;}
+            50%{width:2.2vw;}
+            100%{width:2vw;}}
+            @keyframes street_leaf_bigger_smaller{
+              0%{width:1.8vw;}
+              50%{width:2.2vw;}
+              100%{width:2vw;}}
+
+
+@-webkit-keyframes disappear_right {
+  0%{opacity: 1;-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+  75%{opacity: 0.8;}
+  100%{opacity: 0;-webkit-transform: translate(40vw, 0vw);transform: translate(40vw, 0vw);}
+}
+
+@keyframes disappear_right {
+  0%{opacity: 1;-webkit-transform: translate(0vw, 0vw);transform: translate(0vw, 0vw);}
+  75%{opacity: 0.8;}
+  100%{opacity: 0;-webkit-transform: translate(40vw, 0vw);transform: translate(40vw, 0vw);}
+}
+
+.capsule_open{
+  -webkit-animation-name: capsule_move, capsule_rotate;
+  animation-name: capsule_move, capsule_rotate;
+}
+
+.leaves_comeout{
+  -webkit-animation-name: leaves_move, leaves_scale;
+  animation-name: leaves_move, leaves_scale;
+}
+
+@-webkit-keyframes capsule_move {
+  0%{left:7.3vw; top:6.6vw;}
+  50%{left:10.7vw; top:3.5vw;}
+  100% {left:22vw; top:8vw;}
+}
+@keyframes capsule_move {
+  0%{left:7.3vw; top:6.6vw;}
+  50%{left:10.7vw; top:3.5vw;}
+  100% {left:22vw; top:8vw;}
+}
+
+@-webkit-keyframes capsule_rotate{
+  0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  50%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(70deg);transform: rotate(70deg);}}
+  @keyframes capsule_rotate{
+  0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  50%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(70deg);transform: rotate(70deg);}}
+
+  @-webkit-keyframes leaves_move {
+    0%{left:13.3vw; top:12vw;}
+    50%{left:13.3vw; top:12vw;}
+    100% {left:13.5vw; top:8vw;}
+  }
+  @keyframes leaves_move {
+    0%{left:13.3vw; top:12vw;}
+    50%{left:13.3vw; top:12vw;}
+    100% {left:13.5vw; top:8vw;}
+  }
+
+  @-webkit-keyframes leaves_scale{
+    0%{width:3vw; opacity:0;}
+    50%{width:3vw; opacity:0;}
+    100%{width:8vw; opacity:1;}}
+    @keyframes leaves_scale{
+      0%{width:3vw; opacity:0;}
+      50%{width:3vw; opacity:0;}
+      100%{width:8vw; opacity:1;}}
+
+
+      .bonsai_wave0{
+        -webkit-animation-name: bonsaiwave0;
+        animation-name: bonsaiwave0;
+      }
+      
+      .bonsai_wave1{
+        -webkit-animation-name: bonsaiwave1;
+        animation-name: bonsaiwave1;
+      }
+
+      @-webkit-keyframes bonsaiwave0{
+        0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        25%{-webkit-transform: rotate(-5deg);transform: rotate(-5deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        50%{-webkit-transform: rotate(5deg);transform: rotate(5deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        75%{-webkit-transform: rotate(-5deg);transform: rotate(-5deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}}
+      @keyframes bonsaiwave0{
+        0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        25%{-webkit-transform: rotate(-5deg);transform: rotate(-5deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        50%{-webkit-transform: rotate(5deg);transform: rotate(5deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        75%{-webkit-transform: rotate(-5deg);transform: rotate(-5deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}
+        100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 75% 100%;-webkit-transform-origin: 75% 100%;}}
+      
+        @-webkit-keyframes bonsaiwave1{
+          0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+          25%{-webkit-transform: rotate(5deg);transform: rotate(5deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}
+          50%{-webkit-transform: rotate(-5deg);transform: rotate(-5deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}
+          75%{-webkit-transform: rotate(5deg);transform: rotate(5deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}
+          100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}}
+          @keyframes bonsaiwave1{
+            0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+            25%{-webkit-transform: rotate(5deg);transform: rotate(5deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}
+            50%{-webkit-transform: rotate(-5deg);transform: rotate(-5deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}
+            75%{-webkit-transform: rotate(5deg);transform: rotate(5deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}
+            100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);transform-origin: 25% 100%;-webkit-transform-origin: 25% 100%;}}
