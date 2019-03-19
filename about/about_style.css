@@ -1,0 +1,56 @@
+
+section#basic_info{
+    margin-top:2vh;
+}
+
+div.round_div{
+    width:220pt;
+    height:220pt;
+}
+
+div.text_container{
+    max-width:750pt;
+    margin:auto;
+}
+
+section#skills_section, section#contact_section{
+    margin-top:40pt;
+}
+
+div.skills_container{
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    text-align: center;
+}
+
+div.skills{
+    flex:1;
+    width:200pt;
+}
+
+div.contact_text_container{
+    text-align:center;
+}
+
+span.contact_titles{
+    font-family: century_gothic_BI;
+    color:#21a4d0;
+    font-size:11pt;
+    line-height: 26pt;
+}
+
+span.contact_text{
+    font-family: century_gothic;
+    font-size:11pt;
+    line-height: 26pt;
+}
+
+
+@media all and (max-width: 620px){
+    div.round_div{
+        width:160pt;
+        height:160pt;
+    }
+    
+}
