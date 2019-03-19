@@ -1,0 +1,34 @@
+
+div.round_div{
+    width:200pt;
+    height:200pt;
+}
+
+
+h5.project_name{
+    font-family: century_gothic_B;
+    font-size:11pt;
+    margin-top:15pt;
+    margin-bottom:5pt;
+    color:#f6833f;
+}
+
+h5.project_gengre{
+    font-family: century_gothic;
+    font-size:10pt;
+    color:#8a8a8a;
+    margin-top:0;
+    margin-bottom:15pt;
+}
+
+
+
+
+
+
+@media all and (max-width: 620px){
+    div.round_div{
+        width:160pt;
+        height:160pt;
+    }
+}
