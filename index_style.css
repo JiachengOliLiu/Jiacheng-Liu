@@ -1,0 +1,276 @@
+
+section#welcome{
+    margin-top:30pt;
+    background-color:#f6833f;
+}
+
+div#welcome_container{
+    padding:100pt 0;
+}
+
+#mottos, #welcome_sentence{
+    text-align: center;
+    margin: 0 8vw;
+}
+
+h1.motto_l{
+    font-family: hiragino, "Hiragino Kaku Gothic Pro", sans-serif;
+    font-size: 4vw;
+    margin:0;
+    color:white;
+    white-space: nowrap;
+}
+
+h3.motto_s{
+    margin-top:-0.7vw;
+    margin-left:-1.9vw;
+    font-family: century_gothic_B;
+    font-size: 2.75vw;
+    color:white;
+}
+
+h3#welcome_sentence{
+    font-family: century_gothic;
+    font-size: 14pt;
+    margin-top:30pt;
+    line-height: 20pt;
+    color:white;
+}
+
+span#my_name{
+    font-family: century_gothic_BI;
+    font-size:16pt;
+    white-space: nowrap;
+}
+
+section#all_best_works{
+    margin-top: 55pt;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+section#all_categories{
+    margin-top: 50pt;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+div.content_container{
+    max-width: 950pt;
+}
+
+div.two_rounds_container{
+    display:inline-block;
+    margin:0;
+}
+
+div.round_div{
+    width:170pt;
+    height:170pt;
+}
+
+div.categories{
+    text-align: center;
+}
+
+div.category_1, div.category_3{
+    border-style: solid;
+    border-width: 1pt;
+    border-color:#21a4d0;
+}
+
+div.category_2, div.category_4{
+    border-style: solid;
+    border-width: 1pt;
+    border-color:#f6833f;
+}
+
+h5.category_text{
+    margin-top:78pt;
+    margin-left:5pt;
+    margin-right:5pt;
+    font-family: century_gothic;
+    color:#f6833f;
+    font-size: 12pt;
+}
+
+h5.category_text_1, h5.category_text_3{
+    color:#21a4d0;
+}
+
+h5.category_text_2, h5.category_text_4{
+    color:#f6833f;
+}
+
+
+/*opening animation*********************************/
+
+section#open_animation{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    margin-left:0;
+    pointer-events:none;
+}
+
+div#open_animation_container{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+div.animation_piece{
+    width:100%;
+    position:absolute;
+    overflow:hidden;
+}
+
+div.animation_piece_down{
+    bottom: -15vw;
+    -webkit-animation-name: open_down;
+    animation-name: open_down;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+div.animation_piece_up{
+    top: -10vw;
+    -webkit-animation-name: open_up;
+    animation-name: open_up;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+img.animation_img{
+    width:100%;
+}
+
+@-webkit-keyframes open_down {
+    0%{bottom: -15vw;}
+    80%{opacity:1;}
+    100% {bottom:-80vw;opacity:0;}
+  }
+  
+@keyframes open_down {
+    0%{bottom: -15vw;}
+    80%{opacity:1;}
+    100% {bottom:-80vw;opacity:0;}
+  }
+
+@-webkit-keyframes open_up {
+    0%{top: -10vw;}
+    80%{opacity:1;}
+    100% {top: -70vw;opacity:0;}
+  }
+  
+@keyframes open_up {
+    0%{top: -10vw;}
+    80%{opacity:1;}
+    100% {top:-70vw;opacity:0;}
+  }
+
+header, section#home_all_contents, footer{
+    opacity: 0;
+    -webkit-animation-name: ease_in;
+    animation-name: ease_in;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes ease_in {
+    0%{opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+@keyframes ease_in {
+    0%{opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+/*opening animation********************************/
+
+
+
+
+@media all and (max-width: 620px){
+
+    section#open_animation{
+        width:180%;
+        position:fixed;
+        top:0;
+        margin-left:-40%;
+    }
+
+    @-webkit-keyframes open_down {
+        0%{bottom: -15vw;}
+        80%{opacity:1;}
+        100% {bottom:-150vw;opacity:0;}
+      }
+      
+      @keyframes open_down {
+        0%{bottom: -15vw;}
+        80%{opacity:1;}
+        100% {bottom:-150vw;opacity:0;}
+      }
+    
+      @-webkit-keyframes open_up {
+        0%{top: -10vw;}
+        80%{opacity:1;}
+        100% {top: -120vw;opacity:0;}
+      }
+      
+      @keyframes open_up {
+        0%{top: -10vw;}
+        80%{opacity:1;}
+        100% {top:-120vw;opacity:0;}
+      }
+
+    div#welcome_container{
+        padding:60pt 0;
+    }
+
+    h1.motto_l{
+        font-size: 16pt;
+    }
+    
+    h3.motto_s{
+        font-size: 11pt;
+        color:white;
+    }
+
+    h3#welcome_sentence{
+        font-size: 10pt;
+        margin-top:30pt;
+        line-height: 12pt;
+    }
+    
+    span#my_name{
+        font-size:11pt;
+    }
+
+    section#all_best_works{
+        margin-top: 30pt;
+    }
+
+    div.round_div{
+        width:140pt;
+        height:140pt;
+    }
+
+    h2.home_titles{
+        font-size:16pt;
+    }
+
+    h5.category_text{
+        font-size: 10pt;
+        margin-top:65pt;
+    }
+}
