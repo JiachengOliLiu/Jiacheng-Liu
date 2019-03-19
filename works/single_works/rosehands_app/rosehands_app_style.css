@@ -1,0 +1,74 @@
+section.project_intro{
+    background-color: #ff6945;
+}
+
+div.main_icon_container{
+    width:120pt;
+    padding-top:10pt;
+    padding-bottom:50pt;
+}
+
+div.effect_pics_container{
+    margin-bottom:20pt;
+}
+
+div.sub_paragraphs_container{
+    max-width:450pt;
+}
+
+div.data_container{
+    max-width:450pt;
+    padding:20pt;
+}
+
+div.function_container{
+    margin-top:30pt;
+    margin-bottom:50pt;
+}
+
+div.function_items_container{
+    margin-top:10pt;
+}
+
+div.wireframes_container, div.visual_elements_container{
+    margin-top:30pt;
+    margin-bottom:60pt;
+}
+
+div.interfaces_container{
+    margin-top:25pt;
+}
+
+
+
+
+
+@media all and (max-width: 620px){
+
+    div.main_icon_container{
+        padding-top:5pt;
+        padding-bottom:40pt;
+    }
+
+    div.function_container{
+        margin-top:20pt;
+        margin-bottom:35pt;
+    }
+
+    div.wireframes_container, div.visual_elements_container{
+        margin-top:20pt;
+        margin-bottom:45pt;
+        margin-left:20pt;
+        margin-right:20pt;
+    }
+
+    div.interfaces_container{
+        margin-top:15pt;
+    }
+    
+}
+
+/*styles for Firefox*/
+@-moz-document url-prefix() {
+    
+  }
