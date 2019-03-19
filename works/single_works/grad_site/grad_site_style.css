@@ -1,0 +1,85 @@
+section.project_intro{
+    background-color: #C389EF;
+}
+
+div.top_pic_container{
+    margin-bottom:50pt;
+}
+
+div.wireframes_container{
+    margin:0 20pt;
+}
+
+div.center_pic_container{
+    max-width:400pt;
+    padding:0 20pt;
+}
+
+div.sub_paragraphs_container{
+    max-width:450pt;
+    margin-bottom:35pt;
+}
+
+h3.subtitle_2{
+    margin-bottom:15pt;
+}
+
+h4.subtitle_visual_style{
+    margin-top:55pt;
+    margin-bottom:40pt;
+}
+
+div.icons_container{
+    margin-bottom:10pt;
+}
+
+div.colors_container{
+    margin-bottom:20pt;
+}
+
+div.fonts_container{
+    margin-bottom:55pt;
+}
+
+
+
+
+
+@media all and (max-width: 620px){
+
+    div.top_pic_container{
+        margin-bottom:40pt;
+    }
+    
+    div.sub_paragraphs_container{
+        margin-bottom:25pt;
+    }
+    
+    h3.subtitle_2{
+        margin-bottom:10pt;
+    }
+    
+    h4.subtitle_visual_style{
+        margin-top:40pt;
+        margin-bottom:25pt;
+    }
+    
+    div.icons_container{
+        margin-bottom:5pt;
+    }
+    
+    div.colors_container{
+        margin-bottom:15pt;
+    }
+    
+    div.fonts_container{
+        margin-bottom:35pt;
+    }
+    
+    
+}
+
+/*styles for Firefox*/
+@-moz-document url-prefix() {
+    
+  }
