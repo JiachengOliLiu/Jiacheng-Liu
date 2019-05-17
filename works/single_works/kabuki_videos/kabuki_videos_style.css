@@ -1,0 +1,93 @@
+section.project_intro{
+    background-color: #BF3721;
+}
+
+div.kabuki_footage{
+    max-width:560pt;
+}
+
+div.kabuki_logo{
+    max-width:300pt;
+}
+
+div.small_pic_container{
+    width:200pt;
+}
+
+div.sub_paragraphs_container{
+    max-width:560pt;
+}
+
+iframe.kabuki_video{
+    width:560pt;
+    height:315pt;
+    margin-bottom:30pt;
+}
+
+h3.subtitle_1{
+    text-align:center;
+    margin-bottom:10pt;
+}
+
+h3.kabuki_branding_link{
+    font-family: century_gothic_BI;
+    font-size:11pt;
+    margin-top:10pt;
+    margin-bottom:10pt;
+    color:#BF3721;
+}
+
+div.paragraph_wrap_1{
+    margin-top:10pt;
+}
+
+div.paragraph_wrap_2{
+    margin-top:15pt;
+}
+
+div.paragraph_wrap_3{
+    margin-bottom:20pt;
+}
+
+div.paragraph_wrap_5{
+    margin-top:10pt;
+}
+
+
+
+@media all and (max-width: 950px){
+    iframe.kabuki_video{
+        width:400pt;
+        height:225pt;
+    }
+}
+
+
+
+
+
+@media all and (max-width: 620px){
+
+    iframe.kabuki_video{
+        width:240pt;
+        height:135pt;
+        margin-top:0;
+        margin-bottom:15pt;
+    }
+
+    h3.subtitle_1{
+        margin-bottom:5pt;
+    }
+
+    div.paragraph_wrap_3{
+        margin-bottom:15pt;
+    }
+    
+}
+
+
+
+/*styles for Firefox*/
+@-moz-document url-prefix() {
+    
+  }
