@@ -1,0 +1,79 @@
+section.project_intro{
+    background-color: #BC3721;
+}
+
+div.main_logo_container{
+    width:200pt;
+    margin-bottom:30pt;
+}
+
+div.all_logos_container{
+    max-width:450pt;
+    margin-top:10pt;
+    margin-bottom:10pt;
+}
+
+div.sub_paragraphs_container{
+    max-width:450pt;
+}
+
+h3.kabuki_videos_link{
+    font-family: century_gothic_BI;
+    font-size:11pt;
+    margin-top:20pt;
+    margin-bottom:40pt;
+    text-align:left;
+    color:#BF3721;
+}
+
+h4.subtitle_3{
+    text-align:left;
+}
+
+div.decoration_container{
+    margin-top:25pt;
+    margin-bottom:10pt;
+}
+
+div.print_web_container{
+    margin-top:10pt;
+    margin-bottom:50pt;
+}
+
+h3.wireframe-title{
+    margin-top:30pt;
+}
+
+
+
+
+
+
+@media all and (max-width: 620px){
+    div.main_logo_container{
+        width:150pt;
+    }
+    h4.subtitle_3{
+        text-align:center;
+    }
+    h3.kabuki_videos_link{
+        text-align:center;
+    }
+    h3.kabuki_videos_link{
+        margin-bottom:30pt;
+    }
+    
+    div.print_web_container{
+        margin-top:5pt;
+        margin-bottom:30pt;
+    }
+    h3.wireframe-title{
+        margin-top:20pt;
+    }
+    
+}
+
+/*styles for Firefox*/
+@-moz-document url-prefix() {
+    
+  }
