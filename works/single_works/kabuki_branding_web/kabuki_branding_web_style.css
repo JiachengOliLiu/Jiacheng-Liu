@@ -40,11 +40,25 @@ div.print_web_container{
     margin-bottom:50pt;
 }
 
-h3.wireframe-title{
-    margin-top:30pt;
+h3.poster-title{
+    margin-top:50pt;
 }
 
+h3.wireframe-title{
+    margin-top:40pt;
+}
 
+div.website-link-kabuki{
+    background-color: #BF3721;
+}
+
+div.website-link-kabuki-site{
+    margin-bottom:30pt;
+}
+
+div.website-link-videos{
+    max-width:450pt;
+}
 
 
 
@@ -68,9 +82,11 @@ h3.wireframe-title{
         margin-bottom:30pt;
     }
     h3.wireframe-title{
-        margin-top:20pt;
+        margin-top:25pt;
     }
-    
+    h3.poster-title{
+        margin-top:30pt;
+    }
 }
 
 /*styles for Firefox*/

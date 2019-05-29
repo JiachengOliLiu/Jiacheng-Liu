@@ -1,0 +1,32 @@
+section.project_intro{
+    background-color: #f6833f;
+}
+
+div.center_pic_container{
+    width:300pt;
+}
+
+div.small_pic_container{
+    width:200pt;
+}
+
+div.sub_paragraphs_container{
+    max-width:450pt;
+}
+
+div.website-link{
+    background-color:red;
+}
+
+
+
+
+
+@media all and (max-width: 620px){
+    
+}
+
+/*styles for Firefox*/
+@-moz-document url-prefix() {
+    
+  }

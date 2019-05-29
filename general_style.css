@@ -118,9 +118,8 @@ h4.btn_txt_about{
     margin-right:12pt;
 }
 
- /*styles for nav*/
 
-
+ /*general styles for all site*/
 div.content_container{
     margin:auto;
     text-align:center;
@@ -168,12 +167,6 @@ span.book_name{
     font-family: century_gothic_I;
 }
 
-div.columned_p_container{
-    column-width: 280pt;
-    column-gap: 30pt;
-}
-
-
 div.general_p_container{
     text-align:left;
 }
@@ -194,6 +187,7 @@ img.general_img{
     width:100%;
 }
 
+/*footer*/
 footer{
     margin-top:80pt;
     margin-bottom:40pt;
@@ -229,7 +223,6 @@ span.footer_text{
 
 
 /*styles for single works pages*/
-
 section.project_intro{
     margin-top: 30pt;
 }
@@ -288,6 +281,17 @@ h4.subtitle_3{
     color:#8a8a8a;
     margin-top:0;
     margin-bottom:5pt;
+}
+
+div.website-link{
+    padding:10pt;
+    text-align:center;
+}
+
+a.website-link-text{
+    font-family: century_gothic_BI;
+    font-size:14pt;
+    color:white;
 }
 
 section.single_work_custom_content{
@@ -428,6 +432,9 @@ img.height_fit_img{
         text-align:center;
     }
 
+    a.website-link-text{
+        font-size:12pt;
+    }
 
     div.small_pic_container{
         margin:0;

@@ -7,12 +7,9 @@ span.link_in_intro{
     color:#851C36;
 }
 
-h3.arboretum_page_link{
-    color:#CDA152;
-}
-
-p.notes{
-    padding-bottom:20pt;
+div.arboretum_page_link{
+    background-color:#CDA152;
+    margin-bottom: 30pt;
 }
 
 div.screenshot_container{
@@ -64,7 +61,9 @@ div.exlink_container{
 
 
 @media all and (max-width: 880px){
-
+    div.arboretum_page_link{
+        margin-top: 10pt;
+    }
     div.single_column_container{
         max-width:500pt;
     }
