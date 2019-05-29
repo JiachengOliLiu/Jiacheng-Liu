@@ -55,6 +55,10 @@ section#all_categories{
     margin-right:10vw;
 }
 
+div.round_img_container{
+    margin: 15pt;
+}
+
 div.content_container{
     max-width: 950pt;
 }

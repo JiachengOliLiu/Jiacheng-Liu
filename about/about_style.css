@@ -8,25 +8,97 @@ div.round_div{
     height:220pt;
 }
 
+div.content_container{
+    max-width: 950pt;
+}
+
+div.my_photo{
+    width:180pt;
+    height:180pt;
+    margin-bottom:40pt;
+}
+
+div.introduction_container{
+    display:inline-block;
+    vertical-align:text-top;
+    width:200pt;
+    margin:0 16pt 40pt 16pt;
+    text-align:center;
+}
+
+div.keywords{
+    text-align: center;
+    width:120pt;
+    height:120pt;
+    margin-bottom:10pt;
+}
+
+div.keyword_1{
+    border-style: solid;
+    border-width: 1pt;
+    border-color:#21a4d0;
+}
+
+div.keyword_2{
+    border-style: solid;
+    border-width: 1pt;
+    border-color:#f6833f;
+}
+
+h5.keyword_text{
+    margin-top:54pt;
+    margin-left:5pt;
+    margin-right:5pt;
+    font-family: century_gothic;
+    color:#f6833f;
+    font-size: 12pt;
+}
+
+h5.keyword_text_1{
+    color:#21a4d0;
+}
+
+h5.keyword_text_2{
+    color:#f6833f;
+}
+
+
 div.text_container{
     max-width:750pt;
     margin:auto;
 }
 
-section#skills_section, section#contact_section{
-    margin-top:40pt;
+section#skills_section{
+    margin-top:20pt;
 }
 
+section#contact_section{
+    margin-top:30pt;
+}
+
+
 div.skills_container{
-    display:flex;
-    flex-wrap:wrap;
-    margin:auto;
+    margin:0 auto;
     text-align: center;
 }
 
 div.skills{
-    flex:1;
-    width:200pt;
+    display:inline-block;
+    vertical-align:text-top;
+    width:160pt;
+    margin-bottom:10pt;
+}
+
+h5.paragraph_subtitle{
+    margin-bottom:8pt;
+}
+
+p.skills_item{
+    font-family: century_gothic, hiragino, "Hiragino Kaku Gothic Pro", sans-serif;
+    font-size:11pt;
+    margin-top:0;
+    margin-bottom:5pt;
+    line-height: 15pt;
 }
 
 div.contact_text_container{
@@ -47,10 +119,55 @@ span.contact_text{
 }
 
 
-@media all and (max-width: 620px){
-    div.round_div{
-        width:160pt;
-        height:160pt;
+
+
+
+@media all and (max-width: 1190px){
+    div.introduction_container{
+        width:180pt;
     }
-    
+}
+
+@media all and (max-width: 1090px){
+    div.introduction_container{
+        display:block;
+        width:250pt;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+@media all and (max-width: 1030px){
+    div.skills{
+        width:150pt;
+    }
+}
+
+@media all and (max-width: 780px){
+    div.skills{
+        width:100%;
+    }
+}
+
+@media all and (max-width: 620px){
+    div.my_photo{
+        width:170pt;
+        height:170pt;
+        margin-bottom:20pt;
+    }
+    div.keywords{
+        margin-bottom:6pt;
+    }
+    div.introduction_container{
+        margin-bottom:20pt;
+    }
+    section#skills_section{
+        margin-top:40pt;
+    }
+}
+
+@media all and (max-width: 560px){
+    div.introduction_container{
+        width:100%;
+    }
 }
