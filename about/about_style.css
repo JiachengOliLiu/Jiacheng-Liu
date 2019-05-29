@@ -125,10 +125,11 @@ span.contact_text{
 @media all and (max-width: 1190px){
     div.introduction_container{
         width:180pt;
+        margin:0 12pt 40pt 12pt;
     }
 }
 
-@media all and (max-width: 1090px){
+@media all and (max-width: 1050px){
     div.introduction_container{
         display:block;
         width:250pt;
