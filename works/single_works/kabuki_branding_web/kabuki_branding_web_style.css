@@ -54,7 +54,8 @@ div.website-link-kabuki{
 }
 
 div.website-link-kabuki-site{
-    margin-bottom:30pt;
+    margin-top:30pt;
+    margin-bottom:50pt;
 }
 
 div.website-link-videos{
@@ -71,10 +72,13 @@ div.website-link-videos{
     h4.subtitle_3{
         text-align:center;
     }
+
+    div.website-link-kabuki-site{
+        margin-bottom:40pt;
+    }
+
     h3.kabuki_videos_link{
         text-align:center;
-    }
-    h3.kabuki_videos_link{
         margin-bottom:30pt;
     }
     
