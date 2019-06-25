@@ -181,6 +181,12 @@ div.round_div{
     margin-right: auto;
 }
 
+div.project_round_div{
+    border-style: solid;
+    border-width: 15pt;
+    border-color:#e4e4ea;
+}
+
 img.general_img{
     width:100%;
 }
