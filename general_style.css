@@ -103,7 +103,6 @@ h4.btn_txt{
     margin-top:22pt;
     font-family: century_gothic;
     font-size: 12pt;
-    color:white;
 }
 
 h4.btn_txt_home{
@@ -142,7 +141,6 @@ h4.paragraph_title{
 h5.paragraph_subtitle{
     font-family: century_gothic_BI;
     font-size:11pt;
-    color:#21a4d0;
     text-align: center;
     margin-top:0;
 }
@@ -210,7 +208,7 @@ span.footer_name, span.footer_items, span.footer_text{
 
 span.footer_name{
     font-family: century_gothic_B;
-    color:#f6833f;
+    color:#AE93D1;
 }
 
 span.footer_items, span.footer_text{
@@ -218,7 +216,7 @@ span.footer_items, span.footer_text{
 }
 
 span.footer_text{
-    color:#21a4d0;
+    color:#AE93D1;
 }
 
 

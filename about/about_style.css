@@ -1,4 +1,12 @@
 
+h4.btn_txt_about{
+    color: white;
+}
+
+h4.btn_txt_home, h4.btn_txt_works{
+    color: #AE93D1;
+}
+
 section#basic_info{
     margin-top:2vh;
 }
@@ -27,22 +35,13 @@ div.introduction_container{
 }
 
 div.keywords{
+    border-style: solid;
+    border-width: 1pt;
     text-align: center;
     width:120pt;
     height:120pt;
     margin-bottom:10pt;
-}
-
-div.keyword_1{
-    border-style: solid;
-    border-width: 1pt;
-    border-color:#21a4d0;
-}
-
-div.keyword_2{
-    border-style: solid;
-    border-width: 1pt;
-    border-color:#f6833f;
+    border-color:#AE93D1;
 }
 
 h5.keyword_text{
@@ -50,16 +49,8 @@ h5.keyword_text{
     margin-left:5pt;
     margin-right:5pt;
     font-family: century_gothic;
-    color:#f6833f;
+    color:#AE93D1;
     font-size: 12pt;
-}
-
-h5.keyword_text_1{
-    color:#21a4d0;
-}
-
-h5.keyword_text_2{
-    color:#f6833f;
 }
 
 
@@ -91,6 +82,7 @@ div.skills{
 
 h5.paragraph_subtitle{
     margin-bottom:8pt;
+    color:#AE93D1;
 }
 
 p.skills_item{
@@ -107,7 +99,7 @@ div.contact_text_container{
 
 span.contact_titles{
     font-family: century_gothic_BI;
-    color:#21a4d0;
+    color:#AE93D1;
     font-size:11pt;
     line-height: 26pt;
 }

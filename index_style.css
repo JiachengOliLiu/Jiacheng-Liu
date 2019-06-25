@@ -1,7 +1,15 @@
 
+h4.btn_txt_home{
+    color: white;
+}
+
+h4.btn_txt_works, h4.btn_txt_about{
+    color: #AE93D1;
+}
+
 section#welcome{
     margin-top:30pt;
-    background-color:#f6833f;
+    background-color:#AE93D1;
 }
 
 div#welcome_container{
@@ -75,18 +83,9 @@ div.round_div{
 
 div.categories{
     text-align: center;
-}
-
-div.category_1, div.category_3{
     border-style: solid;
     border-width: 1pt;
-    border-color:#21a4d0;
-}
-
-div.category_2, div.category_4{
-    border-style: solid;
-    border-width: 1pt;
-    border-color:#f6833f;
+    border-color:#AE93D1;
 }
 
 h5.category_text{
@@ -94,16 +93,8 @@ h5.category_text{
     margin-left:5pt;
     margin-right:5pt;
     font-family: century_gothic;
-    color:#f6833f;
+    color:#AE93D1;
     font-size: 12pt;
-}
-
-h5.category_text_1, h5.category_text_3{
-    color:#21a4d0;
-}
-
-h5.category_text_2, h5.category_text_4{
-    color:#f6833f;
 }
 
 

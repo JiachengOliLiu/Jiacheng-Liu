@@ -1,3 +1,11 @@
+h4.btn_txt_works{
+    color: white;
+}
+
+h4.btn_txt_home, h4.btn_txt_about{
+    color: #AE93D1;
+}
+
 div.round_img_container{
     margin: 16pt;
 }
@@ -13,13 +21,13 @@ h5.project_name{
     font-size:11pt;
     margin-top:15pt;
     margin-bottom:5pt;
-    color:#f6833f;
+    color:#8a8a8a;
 }
 
 h5.project_gengre{
     font-family: century_gothic;
     font-size:10pt;
-    color:#8a8a8a;
+    color:#AE93D1;
     margin-top:0;
     margin-bottom:15pt;
 }
