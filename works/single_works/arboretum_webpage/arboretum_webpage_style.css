@@ -4,7 +4,11 @@ section.project_intro{
 
 span.link_in_intro{
     font-family:century_gothic_B;
-    color:#851C36;
+    color:#123135;
+}
+
+div.effects_container{
+    margin-bottom:70pt;
 }
 
 div.arboretum_page_link{
@@ -61,6 +65,10 @@ div.exlink_container{
 
 
 @media all and (max-width: 880px){
+    div.effects_container{
+        margin-bottom:50pt;
+    }
+
     div.arboretum_page_link{
         margin-top: 10pt;
     }
